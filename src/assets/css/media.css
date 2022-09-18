@@ -1,0 +1,29 @@
+@media only screen and (max-width: 48em) {
+  .Drink {
+    width: 100% !important;
+  }
+  .Form {
+    padding: 2rem;
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 37.5em) {
+  .Form {
+    padding: 0.5rem;
+  }
+}
+@media only screen and (max-width: 23.75em) {
+  html {
+    font-size: 50%;
+  }
+  .flex {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .Nav__link,
+  .Nav__link:link,
+  .Nav__link:active,
+  .Nav__link:visited .Nav__link:hover {
+    margin: 0;
+  }
+}

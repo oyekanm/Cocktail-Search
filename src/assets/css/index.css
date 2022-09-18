@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  margin: 0;
+  background-color: grey !important;
+  color: #fff !important;
+}
+html {
+  font-size: 62.5%;
+}
+.row {
+  width: 90%;
+  margin: 0 auto !important;
+}
+.shared {
+  margin-block: 5rem;
+}
+.Nav {
+  background-color: #fff;
+  color: #000;
+  padding-block: 2rem;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Nav__name {
+  font-size: 2rem;
+  font-weight: 600;
+  display: inline-block;
+}
+nav {
+  display: flex;
+}
+.Nav__link,
+.Nav__link:link,
+.Nav__link:active,
+.Nav__link:visited,
+.Nav__link:hover {
+  font-size: 1.8rem;
+  font-weight: 500;
+  text-decoration: none;
+  margin: 0 2rem;
+  color: inherit;
+}
+.bttn,
+.bttn:link,
+.bttn:active,
+.bttn:visited {
+  text-decoration: none;
+  color: #fff;
+  background-color: rgb(44, 44, 252);
+  padding: 0.8rem;
+  font-size: 1.8rem;
+  letter-spacing: 2px;
+  border-radius: 8px;
+  text-transform: capitalize;
+  transition: all 0.5s;
+}
+.bttn:hover {
+  background-color: rgba(44, 44, 252, 0.5);
+  color: #000;
+}
+.btn-home {
+  display: flex;
+  justify-content: center;
+}
+.Drink {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 0 !important;
+  margin: 2rem auto;
+  width: 380px !important;
+  box-shadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
+  transition: all 0.5s;
+  color: #000;
+}
+.Drink:hover {
+  box-shadow: 5px 10px 3px 0px rgba(0, 0, 0, 0.5);
+}
+.Drink__title {
+  font-size: 4.5rem;
+  font-weight: 700;
+  margin: 3rem 0;
+}
+.Drink__image {
+  width: 100%;
+  height: 300px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.Drink__info {
+  padding: 2rem;
+}
+.Drink__name {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+.Drink__glass {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+.Drink__alcohol {
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+.cocktail__info {
+  margin-left: 20px;
+  margin-top: 3rem !important;
+}
+.cocktail__image {
+  width: 100%;
+  height: 100%;
+}
+.cocktail__info p {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-block: 30px;
+}
+.cocktail__btn {
+  background-color: rgb(44, 44, 252);
+  padding: 0.5rem;
+  color: #fff;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 4rem 0;
+}
+.no-show {
+  font-size: 4rem;
+  font-weight: 700;
+  letter-spacing: 5px;
+}
+.About__story {
+  font-size: 1.6rem;
+}
+.Form {
+  background-color: #fff;
+  padding: 3rem;
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 3px;
+  box-shadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
+}
+.Form__title {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: capitalize;
+  color: #000;
+}
+.Form__input {
+  font-size: 1.6rem;
+  font-weight: 500;
+  background-color: grey;
+  color: #fff;
+  border: none !important;
+  outline: none !important;
+  padding: 1rem;
+  width: 100%;
+}
+.order__flex {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+.order__btn {
+  background-color: #fff;
+  color: grey;
+  padding: 1rem 4rem;
+  border-radius: 5px;
+  font-size: 2rem;
+  font-weight: 600;
+  box-shadow: 0 0 9px 0px rgba(0, 0, 0, 0.8);
+  text-align: center;
+}
